@@ -55,13 +55,13 @@ Global classes
   border-radius: 20px;
   width: 85%;
   max-width: 800px;
-  overflow: hidden;
 }
 .card {
   display: flex;
   flex-direction: column;
   background: white;
   position: relative;
+  overflow: hidden;
   border-radius: 20px;
 }
 .image-div img {
@@ -150,6 +150,9 @@ Media Query
 
   .card {
     flex-direction: row;
+    position: static;
+  }
+  .card-container {
     position: relative;
   }
 
